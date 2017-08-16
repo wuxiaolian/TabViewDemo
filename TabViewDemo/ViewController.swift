@@ -70,7 +70,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UICollectionViewDele
         let indexT: CGFloat = CGFloat(selectedIndex)
 
         if selectedIndex <= pageSize/2{
-            self.typeView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
+            self.typeView.setContentOffset(CGPoint(x: 0, y:              0), animated: true)
             
         }else{
             self.typeView.setContentOffset(CGPoint(x:0.132*KScreenWidth*(indexT - count), y: 0), animated: true)
